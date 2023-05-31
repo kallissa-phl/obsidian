@@ -14,7 +14,7 @@ source "https://rubygems.org"
 # gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", "~> 228", group: :jekyll_plugins
+# gem "github-pages", "~> 228", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
@@ -23,7 +23,7 @@ end
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# gem "jekyll", "~> 4.3"
+gem "jekyll", "~> 4.3"
 gem "jekyll-last-modified-at", git: "https://github.com/maximevaillancourt/jekyll-last-modified-at", branch: "add-support-for-files-in-git-submodules"
 gem "webrick", "~> 1.8"
 gem "nokogiri"
