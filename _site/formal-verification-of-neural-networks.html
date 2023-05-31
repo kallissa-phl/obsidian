@@ -29,31 +29,28 @@
         <article>
           <div>
             <h1>formal verification of neural networks</h1>
-            <time datetime="2023-05-31T16:12:30+02:00">
-              Last updated on May 31, 2023
+            <time datetime="">
+              Last updated on 
             </time>
           </div>
           <div id="notes-entry-container">
             <content>
-              <html><body>
-                  <p>Formal verification for neural networks is the problem of, given a <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Neural Network  <span class="invalid-link-brackets">]]</span></span> implementing a function \(\mathbf{\hat{x}_n} = f(\mathbf{x_0})\), a bounded input domain \(\mathcal{C}\), and a property \(P\), proving</p>
-                  \[\mathbf{x_0} \in \mathcal{C},\quad \mathbf{\hat{x}_n} = f(\mathbf{x_0}) \Rightarrow P(\mathbf{\hat{x}_n})\]
-                  <p>Properties can be represented as Boolean formulas over linear equalities that constrain the network’s behaviour.</p>
-                  <p>Examples for properties include <a class="internal-link" href="/local-robustness">local robustness</a> and <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  global robustness  <span class="invalid-link-brackets">]]</span></span>.</p>
-                  <hr>
-                  <h1 id="sources">Sources</h1>
-                  <ul>
-                    <li><span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Branch and Bound for Piecewise Linear Neural Network Verification  <span class="invalid-link-brackets">]]</span></span></li>
-                  </ul>
-                </body></html>
+              <p>Formal verification for neural networks is the problem of, given a [[Neural Network]] implementing a function \(\mathbf{\hat{x}_n} = f(\mathbf{x_0})\), a bounded input domain \(\mathcal{C}\), and a property \(P\), proving</p>
+              \[\mathbf{x_0} \in \mathcal{C},\quad \mathbf{\hat{x}_n} = f(\mathbf{x_0}) \Rightarrow P(\mathbf{\hat{x}_n})\]
+              <p>Properties can be represented as Boolean formulas over linear equalities that constrain the network’s behaviour.</p>
+              <p>Examples for properties include [[local robustness]] and [[global robustness]].</p>
+              <hr />
+              <h1 id="sources">Sources</h1>
+              <ul>
+                <li>[[Branch and Bound for Piecewise Linear Neural Network Verification]]</li>
+              </ul>
             </content>
             <side style="font-size: 0.9em">
               <h3 style="margin-bottom: 1em">Notes mentioning this note</h3>
-              <div style="display: grid; grid-gap: 1em; grid-template-columns: repeat(1fr);">
-                <div class="backlink-box">
-                  <a class="internal-link" href="/local-robustness">local robustness</a><br>
-                  <div style="font-size: 0.9em">Local robustness is a property of [[Neural Network]]s that is concerned with not changing the network’s classification or prediction around...</div>
-                </div>
+              <div style="font-size: 0.9em">
+                <p>
+                  There are no notes linking to this note.
+                </p>
               </div>
             </side>
           </div>
@@ -121,7 +118,7 @@
                 const FONT_BASELINE = 40;
                 const MAX_LABEL_LENGTH = 50;
 
-                const graphData = {"edges":[{"source":"10811199971083211411198117115116110101115115","target":"1021111141099710832118101114105102105999711610511111032111102321101011171149710832110101116119111114107115"},{"source":"1021111141099710832118101114105102105999711610511111032111102321101011171149710832110101116119111114107115","target":"10811199971083211411198117115116110101115115"},{"source":"11411198117115116110101115115","target":"10811199971083211411198117115116110101115115"}],"nodes":[{"id":"116101115116","path":"/test","label":"test"},{"id":"80105101991011191051151014576105110101971143278101117114971083278101116119111114107","path":"/piecewise-linear-neural-network","label":"Piecewise-Linear Neural Network"},{"id":"99108971151151051021059997116105111110321111023211810111410510210599971161051111103297108103111114105116104109115","path":"/classification-of-verification-algorithms","label":"classification of verification algorithms"},{"id":"1021111141099710832118101114105102105999711610511111032111102321101011171149710832110101116119111114107115","path":"/formal-verification-of-neural-networks","label":"formal verification of neural networks"},{"id":"10811199971083211411198117115116110101115115","path":"/local-robustness","label":"local robustness"},{"id":"109111110105993211211110812111011110910597108","path":"/monic-polynomial","label":"monic polynomial"},{"id":"11411198117115116110101115115","path":"/robustness","label":"robustness"}]}
+                const graphData = {"edges":[{"source":"10811199971083211411198117115116110101115115","target":"1021111141099710832118101114105102105999711610511111032111102321101011171149710832110101116119111114107115"},{"source":"1021111141099710832118101114105102105999711610511111032111102321101011171149710832110101116119111114107115","target":"10811199971083211411198117115116110101115115"},{"source":"11411198117115116110101115115","target":"10811199971083211411198117115116110101115115"}],"nodes":[{"id":"80105101991011191051151014576105110101971143278101117114971083278101116119111114107","path":"/piecewise-linear-neural-network","label":"Piecewise-Linear Neural Network"},{"id":"99108971151151051021059997116105111110321111023211810111410510210599971161051111103297108103111114105116104109115","path":"/classification-of-verification-algorithms","label":"classification of verification algorithms"},{"id":"1021111141099710832118101114105102105999711610511111032111102321101011171149710832110101116119111114107115","path":"/formal-verification-of-neural-networks","label":"formal verification of neural networks"},{"id":"10811199971083211411198117115116110101115115","path":"/local-robustness","label":"local robustness"},{"id":"109111110105993211211110812111011110910597108","path":"/monic-polynomial","label":"monic polynomial"},{"id":"11411198117115116110101115115","path":"/robustness","label":"robustness"}]}
                 let nodesData = graphData.nodes;
                 let linksData = graphData.edges;
 
