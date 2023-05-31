@@ -1,7 +1,7 @@
 ---
 title: "monic polynomial"
 feed: show
-date: 2023-05-30
+date: 2023-05-31
 alias: "monomial"
 ---
 

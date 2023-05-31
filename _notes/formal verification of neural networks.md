@@ -1,7 +1,7 @@
 ---
 title: "formal verification of neural networks"
 feed: show
-date: 2023-05-30
+date: 2023-05-31
 alias: "neural network verification"
 ---
 

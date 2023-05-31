@@ -1,8 +1,7 @@
 ---
 title: "classification of verification algorithms"
 feed: show
-date: 2023-05-30
-alias: "sound", "unsound", "complete", "incomplete"
+date: 2023-05-31
 ---
 
 Verification algorithms can be classified into four (overlapping) groups.
